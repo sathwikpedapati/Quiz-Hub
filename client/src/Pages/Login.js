@@ -27,7 +27,7 @@ const Login = () => {
       return handleError('All fields are required ')
     }
     try {
-      const url = 'http://localhost:8080/auth/login'
+      const url = 'https://quiz-hub-1zsr.onrender.com/auth/login'
       const response = await fetch(url, {
         method: 'POST',
         headers: {
